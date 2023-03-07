@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color: #9b59b6;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	
+}
+
+.container{
+    background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 600px;
+	max-width: 100%;
+}
+.log {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+#form{
+    padding: 30px 40px;	
+}
+.form-control{
+   width: 80%;
+    position: relative;
+}
+#fname-f,#lname-f,#mail-f,#num-f,#address-f,#pincode-f,#district-f,#state-f{
+    display: block;
+    width: 100%;
+    border: 2px solid gray ;
+    background: transparent;
+    padding:5px 2px;
+    position: relative;
+    margin: 10px;
+  }
+#fname-l,#lname-l,#mail-l,#num-l,#address-l,#pincode-l,#district-l,#state-l{
+display: block;
+margin: 10px;
+padding:10px ;
+color: #777;
+}
+#fname-f:focus,#lname-f:focus,#mail-f:focus,#num-f:focus,#address-f:focus,#pincode-f:focus,#district-f:focus,#state-f:focus{
+outline: none;
+}
+#f-err,#l-err,#mail-err,#num-err,#address-err,#pincode-err,#district-err,#state-err{
+position: absolute;
+top: 100%;
+left: 10px;
+color: red;
+margin: 1px;
+}
+.form-1 #gend-l,.check #lang-l{
+    display: block;
+    padding: 10px;
+    color: #777;
+    margin: 10px;
+}
+.form-1 #gend-f,.check #lang-f{
+    margin-left: 10px;
+   padding-left:10px; 
+  
+}
+.su{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+   
+}
